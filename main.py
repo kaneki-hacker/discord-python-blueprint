@@ -10,7 +10,7 @@ import time
 import os
 
 # Importing the bots libraries and functions
-from Events.ready import *
+from Events.ready import ready
 from Events.guild import *
 from Events.member import *
 from Commands.ping import ping_command
@@ -25,7 +25,7 @@ bot = commands.Bot(command_prefix="?", intents=intents)
 # Connecting the events in the "Events" folder to the bot client
 @bot.event
 async def on_ready():
-    pass
+    await ready(bot)
 
 @bot.event
 async def on_guild_join(guild: discord.Guild):
