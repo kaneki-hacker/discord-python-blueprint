@@ -1,0 +1,7 @@
+# This file is used to ignore the following files from my working dir
+
+.env
+venv/
+__pycache__/
+*.pyc
+
