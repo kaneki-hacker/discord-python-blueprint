@@ -10,5 +10,3 @@ async def ready(bot: commands.Bot):
     # or to do something when the bot connects to the discord servers.
     # For example the following print statments is used to notify that the bot is ready for use.
     print(f"<WRITE WHAT YOU WANT THE BOT TO SAY WHEN IT STARTS>")
-
-
